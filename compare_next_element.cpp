@@ -6,13 +6,13 @@ using namespace std;
 int main()
  {
 int a;
-cout<<"Enter number of element in array: ";
+cout<<"Enter the number of elements in an array: ";
 cin>>a;
 
 int arr[a];
 for(int i=0;i<a;i++)
 {
-    cout<<"Enter "<<i<<"-th number element: ";
+    cout<<"Enter the value of "<<i<<"-th index element: ";
     cin>>arr[i]; //input elements in array
 }
 
